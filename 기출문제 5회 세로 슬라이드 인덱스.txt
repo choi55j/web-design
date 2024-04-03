@@ -1,0 +1,5 @@
+header>.wrap>.logo>a>img^^.menu>ul.navi>(li>a+ul.submenu>li*3>a)*4
+.imgslide>.slidelist>ul>li*3>a>span+img
+.contents>#modal>.modal_up>.uptitle+.upbody+.btn^^.notice>.tab>h4^ul>li*3>a+span
+.gallery>.tab>h4^ul>li*3>a>img^^^^.shortcut>a>img+span.sctext
+footer>.btlogo>a>img^^.site>.btmenu>ul>li*3>a^^^.copy	
