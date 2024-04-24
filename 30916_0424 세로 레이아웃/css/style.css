@@ -1,0 +1,86 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #333333;
+}
+.box{
+    width: 1000px;
+    height: 650px;
+}
+.left_box{
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+.navi{
+    width: 200px;
+    height: 550px;
+    background-color: orange;
+    float: left;
+}
+.right_box{
+    width: 800px;
+    height: 100%;
+    float: left;
+}
+.slide{
+    width: 800px;
+    height: 350px;
+    background-color: yellow;
+}
+.contents{
+    width: 800px;
+    height: 200px;
+}
+.notice_box{
+    width: 280px;
+    height: 200px;
+    background-color: green;
+    float: left;
+}
+.banner_box{
+    width: 280px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+.icon_box{
+    width: 240px;
+    height: 200px;
+    background-color: navy;
+    float: right;
+}
+.footer{
+    width: 800px;
+    height: 100px;
+    float: left;
+}
+.down_logo{
+    width: 200px;
+    height: 100%;
+    background-color: purple;
+    float: left;
+}
+.copyright{
+    width: 600px;
+    height: 100%;
+    float: left;
+}
+.down_menu{
+    width: 600px;
+    height: 50px;
+    background-color: aqua;
+}
+.copy{
+    width: 600px;
+    height: 50px;
+    background-color: aquamarine;
+}
