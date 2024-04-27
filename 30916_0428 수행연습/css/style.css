@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #333333;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.box{
+    width: 1000px;
+    height: 650px;
+}
+.left_box{
+    float: left;
+    width: 200px;
+    height: 650px;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+.navi{
+    width: 200px;
+    height: 550px;
+    background-color: orange;
+    float: left;
+    position: absolute;
+}
+.right_box{
+    width: 800px;
+    height: 100%;
+    float: right;
+}
+.slide{
+    width: 100%;
+    height: 350px;
+    background-color: yellow;
+}
+.contents{
+    width: 100%;
+    height: 200px;
+}
+.c1{
+    width: 280px;
+    height: 100%;
+    background-color: green;
+    float: left;
+}
+.c2{
+    width: 280px;
+    height: 100%;
+    background-color: blue;
+    float: left;
+}
+.c3{
+    width: 240px;
+    height: 100%;
+    background-color: navy;
+    float: left;
+}
+.footer{
+    width: 800px;
+    height: 100px;
+}
+.down_logo{
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+    float: left;
+}
+.down_sub{
+    width: 600px;
+    height: 100%;
+    float: right;
+}
+.down_menu{
+    width: 600px;
+    height: 50px;
+    background-color: aqua;
+}
+.copy{
+    width: 600px;
+    height: 50px;
+    background-color: aquamarine;
+}
+.menu{
+    margin-top: 10px;
+    text-align: center;
+}
+.menu li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+}
+.menu>li>a:hover{
+    background-color: black;
+    color: white;
+}
+.sub{
+    left: 200px;
+    top: 0px;
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+.sub>li>a:hover{
+    background-color: black;
+    color: white;
+}
