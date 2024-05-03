@@ -1,0 +1,142 @@
+@charset "uth-8";
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #333333;
+}
+html, body{
+    min-width: 1200px;
+    background-color: #ffffff;
+    font-size: 20px;
+    /* width: 1200px; */
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+.wrap{
+    width: 1200px;
+}
+.logo{
+    float: left;
+    width: 250px;
+    height: 100px;
+}
+.menu{
+    float: right;
+    width: 800px;
+    height: 100px;
+}
+.bodywrap{
+    width: 1200px;
+    height: 500px;
+}
+.slide{
+    width: 1200px;
+    height: 300px;
+}
+.contents{
+    float: left;
+    width: 1200px;
+    height: 200px;
+}
+.tabmenu{
+    float: left;
+    width: 395px;
+    height: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+}
+.tabmenu>li{
+    float: left;
+    width: 100px;
+    line-height: 30px;
+}
+.tabmenu>li>a{
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    background-color: #cccccc;
+    border: 1px solid #dddddd;
+    border-bottom: none;
+}
+.tabmenu>li>a:hover{
+    background-color: #ffffff;
+}
+.tabmenu>li div{
+    position: absolute;
+    left: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+.tabmenu>li.active div{
+    width: 393px;
+    height: 148px;
+    border: 1px solid #dddddd;
+    z-index: 1;
+}
+.notice ul{
+    float: left;
+    width: 393px;
+    /* margin-top: 12px; */
+    margin-bottom: 12px;
+}
+.notice li{
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.notice li:nth-child(2n){
+    background-color: #cccccc;
+}
+.notice li span{
+    float: right;
+}
+.notice li:hover{
+    font-weight: bold;
+}
+.gallery li{
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 100px;
+}
+.gallery a{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: aqua;
+}
+.galllery li:hover{
+    opacity: 0,5;
+}
+.otherwrap{
+    float: right;
+    width: 800px;
+    height: 200px;
+}
+.banner{
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+.shortcut{
+    float: right;
+    width: 400px;
+    height: 200px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #30a3f3;
+}
