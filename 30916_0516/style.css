@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #333333;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.all {
+    width: 1200px;
+    height: 700px;
+}
+
+.header {
+    width: 1200px;
+    height: 400px;
+    background-color: red;
+}
+
+.contents {
+    width: 1200px;
+    height: 200px;
+}
+
+.tabmenu {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tabmenu>li {
+    width: 100px;
+    line-height: 30px;
+    float: left;
+}
+
+.tabmenu>li>a {
+    text-align: center;
+    background-color: gainsboro;
+    border: 1px solid;
+}
+
+.tabmenu>li>a:hover {
+    background-color: pink;
+}
+
+.tabmenu>li.active>a {
+    background-color: plum;
+    color: white;
+}
+
+.tabmenu>li div {
+    position: absolute;
+    left: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.tabmenu>li.active div {
+    width: 390px;
+    height: 150px;
+    border: 1px solid;
+    z-index: 1;
+}
+
+.notice ul {
+    float: left;
+    width: 390px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.notice li {
+    line-height: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.notice li:nth-child(2n) {
+    background-color: skyblue;
+}
+
+.notice span {
+    float: right;
+}
+
+.notice li:hover {
+    font-weight: bold;
+}
+
+.gallery li {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 22.5px;
+    line-height: 100px;
+}
+
+.c2 {
+    width: 400px;
+    height: 200px;
+    background-color: green;
+    float: left;
+}
+
+.c3 {
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+
+.footer {
+    width: 1200px;
+    height: 100px;
+    background-color: yellow;
+}
