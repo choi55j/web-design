@@ -15,3 +15,8 @@ setInterval(function(){
     $('.imgslide').animate({marginTop : 0})
     $('.imgslide').delay(3000);
 })
+
+$('.tabmenu>li>a').click(function(){
+    $(this).parent().addClass('active').siblings().removeClass('active');
+    return false;
+});

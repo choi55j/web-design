@@ -116,29 +116,119 @@ a {
 .contents {
     width: 1200px;
     height: 200px;
+    position: relative;
 }
 
 .c1 {
     width: 400px;
     height: 200px;
     float: left;
-    background-color: green;
+}
+.tabmenu{
+    float: left;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+}
+.tabmenu>li{
+    float: left;
+    width: 100px;
+    line-height: 30px;
+}
+.tabmenu>li>a{
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    background-color: #cccccc;
+    border: 1px solid #dddddd;
+    border-bottom: none;
+}
+.tabmenu>li>a:hover{
+    background-color: #eeeeee;
+}
+.tabmenu>li:first-child a{
+    border-right: none;
+}
+.tabmenu>li.active>a{
+    background-color: #ffffff;
+}
+.tabmenu>li div{
+    position: absolute;
+    left: 0px;
+    height: 0px;
+    overflow: hidden;
+    top: 40px;
+}
+.tabmenu>li.active div{
+    width: 393px;
+    height: 140px;
+    border: 1px solid #dddddd;
+    z-index: 1;
 }
 
+.notice li{
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.notice li:nth-child(2n){
+    background-color: #eeeeee;
+}
+.notice li span{
+    float: right;
+}
+.notice li:hover{
+    font-weight: bold;
+}
+
+.gallery li {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.gallery img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.gallery li:hover{
+    opacity: 0.5;
+}
 .c2 {
     width: 400px;
     height: 200px;
     float: left;
-    background-color: blue;
+}
+.c2 li{
+    float: right;
+    margin-top: 10px;
+}
+.c2 img{
+    width: 380px;
+    height: 180px;
+    object-fit: cover;
+}
+.bntext{
+    
 }
 
 .c3 {
     width: 400px;
     height: 200px;
     float: left;
-    background-color: navy;
+}
+.c3 li{
+    float: right;
+    margin-top: 10px;
 }
 
+.c3 img{
+    width: 380px;
+    height: 180px;
+    object-fit: cover;
+}
 .footer {
     width: 1200px;
     height: 100px;
