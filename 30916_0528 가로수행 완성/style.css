@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #333333;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.all {
+    width: 1200px;
+    height: 700px;
+}
+
+.header {
+    width: 1200px;
+    height: 100px;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    float: left;
+    /* background-color: red; */
+}
+
+.menu {
+    width: 950px;
+    height: 100px;
+    float: left;
+    background-color: rgb(255, 166, 0, 0.5);
+    position: relative;
+    z-index: 1;
+}
+
+.navi {
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.navi>li {
+    float: left;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+}
+
+.navi>li>a:hover {
+    background-color: pink;
+}
+
+.sub {
+    display: none;
+    position: absolute;
+}
+
+.sub>li {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: yellowgreen;
+}
+
+.sub>li>a:hover {
+    background-color: thistle;
+}
+
+.slide {
+    float: right;
+    width: 1200px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgslide img {
+    width: 1200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.imgslide {
+    height: 900px;
+    float: left;
+}
+.imgslide a{
+    height: 300px;
+}
+
+.imgslide ul li {
+    width: 1200px;
+    float: left;
+}
+
+.imgslide span {
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 50px;
+    background-color: rgba(40, 40, 40, 0.5);
+    margin-left: 400px;
+    margin-top: 150px;
+}
+
+.contents {
+    width: 1200px;
+    height: 200px;
+    position: relative;
+}
+
+.c1 {
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+.tabmenu{
+    float: left;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+}
+.tabmenu>li{
+    float: left;
+    width: 100px;
+    line-height: 30px;
+}
+.tabmenu>li>a{
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    background-color: #cccccc;
+    border: 1px solid #dddddd;
+    border-bottom: none;
+}
+.tabmenu>li>a:hover{
+    background-color: #eeeeee;
+}
+.tabmenu>li:first-child a{
+    border-right: none;
+}
+.tabmenu>li.active>a{
+    background-color: #ffffff;
+}
+.tabmenu>li div{
+    position: absolute;
+    left: 0px;
+    height: 0px;
+    overflow: hidden;
+    top: 40px;
+}
+.tabmenu>li.active div{
+    width: 393px;
+    height: 140px;
+    border: 1px solid #dddddd;
+    z-index: 1;
+}
+
+.notice li{
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.notice li:nth-child(2n){
+    background-color: #eeeeee;
+}
+.notice li span{
+    float: right;
+}
+.notice li:hover{
+    font-weight: bold;
+}
+
+.gallery li {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.gallery img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.gallery li:hover{
+    opacity: 0.5;
+}
+.c2 {
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+.c2 li{
+    float: right;
+    margin-top: 10px;
+}
+.c2 img{
+    width: 380px;
+    height: 180px;
+    object-fit: cover;
+}
+.bntext{
+    width: 300px;    
+    height: 40px;
+    position: absolute;
+    line-height: 40px;
+    top: 390px;
+    left: 460px;
+    float: left;
+    background-color: rgb(124, 124, 124,0.5);
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.c3 {
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+.c3 li{
+    float: right;
+    margin-top: 10px;
+}
+
+.c3 img{
+    width: 380px;
+    height: 180px;
+    object-fit: cover;
+}
+.sctext{
+    width: 300px;    
+    height: 40px;
+    position: absolute;
+    line-height: 40px;
+    top: 390px;
+    left: 860px;
+    float: left;
+    background-color: rgb(124, 124, 124,0.5);
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer {
+    width: 1200px;
+    height: 100px;
+}
+
+.down_logo {
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+.down_logo img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.copy {
+    width: 850px;
+    height: 100px;
+    float: left;
+    background-color: rgb(0, 255, 255,0.2);
+    text-align: center;
+}
+.copy a{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.sns {
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: aquamarine;
+}
+.sns img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
