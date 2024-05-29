@@ -91,7 +91,8 @@ a {
     height: 900px;
     float: left;
 }
-.imgslide a{
+
+.imgslide a {
     height: 300px;
 }
 
@@ -124,18 +125,21 @@ a {
     height: 200px;
     float: left;
 }
-.tabmenu{
+
+.tabmenu {
     float: left;
     width: 400px;
     height: 200px;
     position: absolute;
 }
-.tabmenu>li{
+
+.tabmenu>li {
     float: left;
     width: 100px;
     line-height: 30px;
 }
-.tabmenu>li>a{
+
+.tabmenu>li>a {
     margin-top: 5px;
     display: block;
     text-align: center;
@@ -143,43 +147,51 @@ a {
     border: 1px solid #dddddd;
     border-bottom: none;
 }
-.tabmenu>li>a:hover{
+
+.tabmenu>li>a:hover {
     background-color: #eeeeee;
 }
-.tabmenu>li:first-child a{
+
+.tabmenu>li:first-child a {
     border-right: none;
 }
-.tabmenu>li.active>a{
+
+.tabmenu>li.active>a {
     background-color: #ffffff;
 }
-.tabmenu>li div{
+
+.tabmenu>li div {
     position: absolute;
     left: 0px;
     height: 0px;
     overflow: hidden;
     top: 40px;
 }
-.tabmenu>li.active div{
+
+.tabmenu>li.active div {
     width: 393px;
     height: 140px;
     border: 1px solid #dddddd;
     z-index: 1;
 }
 
-.notice li{
+.notice li {
     height: 32px;
     line-height: 32px;
     font-size: 15px;
     margin-left: 10px;
     margin-right: 10px;
 }
-.notice li:nth-child(2n){
+
+.notice li:nth-child(2n) {
     background-color: #eeeeee;
 }
-.notice li span{
+
+.notice li span {
     float: right;
 }
-.notice li:hover{
+
+.notice li:hover {
     font-weight: bold;
 }
 
@@ -188,37 +200,43 @@ a {
     margin-top: 10px;
     margin-left: 10px;
 }
-.gallery img{
+
+.gallery img {
     width: 100px;
     height: 100px;
     padding: 10px;
 }
-.gallery li:hover{
+
+.gallery li:hover {
     opacity: 0.5;
 }
+
 .c2 {
     width: 400px;
     height: 200px;
     float: left;
 }
-.c2 li{
+
+.c2 li {
     float: right;
     margin-top: 10px;
 }
-.c2 img{
+
+.c2 img {
     width: 380px;
     height: 180px;
     object-fit: cover;
 }
-.bntext{
-    width: 300px;    
+
+.bntext {
+    width: 300px;
     height: 40px;
     position: absolute;
     line-height: 40px;
     top: 390px;
     left: 460px;
     float: left;
-    background-color: rgb(124, 124, 124,0.5);
+    background-color: rgb(124, 124, 124, 0.5);
     color: #ffffff;
     text-align: center;
     font-weight: bold;
@@ -230,29 +248,78 @@ a {
     height: 200px;
     float: left;
 }
-.c3 li{
+
+.c3 li {
     float: right;
     margin-top: 10px;
 }
 
-.c3 img{
+.c3 img {
     width: 380px;
     height: 180px;
     object-fit: cover;
 }
-.sctext{
-    width: 300px;    
+
+.sctext {
+    width: 300px;
     height: 40px;
     position: absolute;
     line-height: 40px;
     top: 390px;
     left: 860px;
     float: left;
-    background-color: rgb(124, 124, 124,0.5);
+    background-color: rgb(124, 124, 124, 0.5);
     color: #ffffff;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+}
+
+#modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(134, 134, 134, 0.5);
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+#modal.active {
+    display: block;
+}
+
+.modal_up {
+    margin-top: 150px;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+}
+
+.uptitle {
+    font-size: 40px;
+    font-weight: bold;
+    height: 100px;
+    line-height: 100px;
+}
+
+.upbody {
+    width: 400px;
+    height: 200px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    margin-top: 70px;
+    float: right;
+    margin-right: 5px;
+    background-color: yellowgreen;
 }
 
 .footer {
@@ -265,7 +332,8 @@ a {
     height: 100px;
     float: left;
 }
-.down_logo img{
+
+.down_logo img {
     width: 150px;
     height: 100px;
     object-fit: cover;
@@ -275,10 +343,11 @@ a {
     width: 850px;
     height: 100px;
     float: left;
-    background-color: rgb(0, 255, 255,0.2);
+    background-color: rgb(0, 255, 255, 0.2);
     text-align: center;
 }
-.copy a{
+
+.copy a {
     margin-top: 30px;
     font-weight: bold;
     font-size: 30px;
@@ -288,9 +357,10 @@ a {
     width: 200px;
     height: 100px;
     float: left;
-    background-color: aquamarine;
+    background-color: rgb(143, 255, 218, 0.5);
 }
-.sns img{
+
+.sns img {
     width: 50px;
     height: 50px;
     float: left;
