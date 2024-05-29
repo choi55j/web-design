@@ -13,4 +13,11 @@ setInterval(function(){
     $('.imgslide').delay(2000);
     $('.imgslide').animate({marginTop:0})
     $('.imgslide').delay(2000);
-})
+});
+
+$(function(){
+    $('.tabmenu>li>a').click(function(){
+        $(this).parent().addClass('active').siblings().removeClass('active');
+        return false;
+    });
+});

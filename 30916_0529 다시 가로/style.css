@@ -1,34 +1,40 @@
 @charset "utf-8";
 
-*{
+* {
     margin: 0 auto;
     padding: 0;
     list-style: none;
     color: #333333;
 }
-a{
+
+a {
     display: block;
     text-decoration: none;
 }
-.all{
+
+.all {
     width: 1200px;
     height: 700px;
 }
-.header{
+
+.header {
     width: 1200px;
     height: 100px;
 }
-.logo{
+
+.logo {
     width: 200px;
     height: 100px;
     float: left;
 }
-.logo img{
+
+.logo img {
     width: 200px;
     height: 100px;
     object-fit: cover;
 }
-.menu{
+
+.menu {
     width: 1000px;
     height: 100px;
     float: left;
@@ -36,13 +42,15 @@ a{
     z-index: 1;
     background-color: thistle;
 }
-.navi{
+
+.navi {
     float: right;
     margin-top: 30px;
     margin-right: 10px;
     text-align: center;
 }
-.navi li{
+
+.navi li {
     float: left;
     width: 180px;
     height: 40px;
@@ -50,20 +58,25 @@ a{
     background-color: white;
     font-size: 20px;
 }
-.navi>li>a:hover{
+
+.navi>li>a:hover {
     background-color: plum;
 }
-.sub{
+
+.sub {
     position: relative;
     display: none;
 }
-.sub li{
+
+.sub li {
     font-size: 16px;
     background-color: yellowgreen;
 }
-.sub>li>a:hover{
+
+.sub>li>a:hover {
     background-color: turquoise;
 }
+
 .slide {
     float: right;
     width: 1200px;
@@ -105,6 +118,7 @@ a{
     margin-left: 400px;
     margin-top: 130px;
 }
+
 .contents {
     width: 1200px;
     height: 200px;
@@ -194,4 +208,56 @@ a{
 
 .gallery li:hover {
     opacity: 0.5;
+}
+
+.banner {
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.banner h4 {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(151, 151, 151, 0.5);
+    position: absolute;
+    text-align: center;
+    margin-top: 90px;
+    left: 510px;
+    line-height: 30px;
+    color: white;
+}
+
+.banner img {
+    float: right;
+    width: 380px;
+    height: 180px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.shorcut {
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.shorcut img {
+    float: right;
+    width: 380px;
+    height: 180px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.shorcut h4 {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(151, 151, 151, 0.5);
+    position: absolute;
+    text-align: center;
+    margin-top: 90px;
+    left: 910px;
+    line-height: 30px;
+    color: white;
 }
