@@ -1,0 +1,100 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #333333;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.all{
+    width: 1200px;
+    height: 700px;
+}
+.header{
+    width: 1200px;
+    height: 100px;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+.logo img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+.menu{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    background-color: rgb(255, 180, 41,0.5);
+    position: relative;
+    z-index: 1;
+}
+.navi{
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+    text-align: center;
+}
+.navi li{
+    width: 180px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    background-color: white;
+    
+}
+.navi>li>a:hover{
+    background-color: aquamarine;
+}
+.sub{
+    position: relative;
+    display: none;
+}
+.sub li{
+    background-color: yellowgreen;
+}
+.sub>li>a:hover{
+    background-color: thistle;
+    color: steelblue;
+}
+.slide {
+    width: 1200px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.imgslide {
+    height: 900px;
+    float: left;
+    position: absolute;
+}
+
+.imgslide a {
+    height: 300px;
+}
+
+.imgslide span {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(156, 156, 156, 0.5);
+    color: white;
+    margin-top: 130px;
+    margin-left: 450px;
+}
+.imgslide img{
+    width: 1200px;
+    height: 300px;
+    object-fit: cover;
+}
+.cocntents{
+    width: 1200px;
+    height: 200px;
+}
