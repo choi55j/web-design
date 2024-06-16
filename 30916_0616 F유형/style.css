@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: black;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.all{
+    width: 100%;
+    height: 100%;
+}
+
+.all1{
+    width: 100%;
+    height: 450px;
+}
+
+.header{
+    width: 1340px;
+    height: 100px;
+    position: relative;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+
+.mbg{
+    width: 3000px;
+    height: 160px;
+    float: left;
+    position: absolute;
+    background-color: turquoise;
+    z-index: 1;
+    top: 100px;
+    display: none;
+    left: -1000px;
+}
+
+.menu{
+    width: 1140px;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    float: left;
+}
+
+.navi{
+    display: block;
+    margin-top: 60px;
+    margin-right: 20px;
+    float: right;
+    z-index: 1;
+    position: relative;
+}
+
+.navi li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    background-color: aqua;
+}
+
+.navi > li > a:hover{
+    background-color: aquamarine;
+}
+
+.sub{
+    display: none;
+}
+
+.sub > li{
+    background-color: turquoise;
+}
+
+.sub > li > a:hover{
+    background-color: teal;
+}
+
+.slide{
+    width: 100%;
+    height: 350px;
+    background-color: yellow;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.imgslide{
+    height: 1050;
+}
+
+.imgslide li{
+    height: 350px;
+}
+
+.imgslide span{
+    position: absolute;
+}
+
+.all2{
+    width: 1340px;
+    height: 670px;
+    position: relative;
+    bottom: 100px;
+}
+
+.contents{
+    width: 1340px;
+    height: 460px;
+}
+
+.c1{
+    width: 1340px;
+    height: 100px;
+    background-color: green;
+}
+
+.c2{
+    width: 1340px;
+    height: 180px;
+    background-color: blue;
+}
+
+.c3{
+    width: 1340px;
+    height: 180px;
+    /* background-color: navy; */
+}
+
+.tabmenu {
+    width: 1340px;
+    height: 200px;
+    float: left;
+    position: relative;
+}
+
+.tabmenu > li{
+    width: 100px;
+    line-height: 30px;
+    float: left;
+}
+
+.tabmenu > li > a{
+    display: block;
+    text-align: center;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    margin-top: 5px;
+}
+
+.tabmenu > li > a:hover{
+    background-color: #ccc;
+}
+
+.tabmenu > li.active > a{
+    background-color: #ccc;
+}
+
+.tabmenu > li div{
+    position: absolute;
+    left: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.tabmenu > li.active div{
+    width: 600px;
+    height: 150px;
+    border: 1px solid #ccc;
+}
+
+.notice li{
+    line-height: 38px;
+}
+
+.notice a{
+    margin-left: 10px;
+}
+
+.notice li:nth-child(2n){
+    background-color: #eee;
+}
+
+.notice span{
+    float: right;
+    margin-right: 10px;
+}
+
+.notice li:hover{
+    font-weight: bold;
+}
+
+.gallery img{
+    width: 100px;
+    height: 100px;
+}
+
+.footer{
+    width: 1340px;
+    height: 100px;
+}
+
+.footer-logo{
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+    float: left;
+}
+
+.footer-sub{
+    width: 1340px;
+    height: 100px;
+}
+
+.footer-down{
+    width: 1140px;
+    height: 50px;
+    background-color: aqua;
+    float: left;
+}
+
+.copy{
+    width: 1140px;
+    height: 50px;
+    background-color: aquamarine;
+    float: left;
+}
