@@ -1,0 +1,244 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #333;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.box{
+    width: 1000px;
+    height: 650px;
+}
+.left_box{
+    width: 200px;
+    height: 650px;
+    float: left;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+.logo img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+.menu{
+    width: 200px;
+    height: 550px;
+    float: left;
+    background-color: rgba(255, 166, 0, 0.356);
+}
+.navi{
+    margin-top: 10px;
+    text-align: center;
+}
+.navi li{
+    width: 180px;
+    line-height: 40px;
+    background-color: white;
+}
+.navi a:hover{
+    background-color: violet;
+}
+.sub{
+    display: none;
+}
+.sub a:hover{
+    background-color: thistle;
+}
+.right_box{
+    width: 800px;
+    height: 650px;
+    float: left;
+}
+.slide {
+    width: 800px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+.imgslide{
+    height: 1050px;
+}
+.imgslide a{
+    height: 350px;
+}
+.imgslide img {
+    width: 800px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.imgslide span {
+    margin-left: 150px;
+    margin-top: 150px;
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    line-height: 50px;
+    background-color: rgba(40, 40, 40, 0.5);
+    font-weight: bold;
+}
+.contents{
+    width: 800px;
+    height: 200px;
+}
+.notice{
+    width: 270px;
+    height: 200px;
+    float: left;
+}
+.notice>a{
+    margin-top: 5px;
+    line-height: 30px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    width: 100px;
+    text-align: center;
+}
+.notice li:nth-child(2n){
+    background-color: #ddd;
+}
+.notice li{
+    margin-top: 5px;
+    line-height: 32px;
+}
+.notice>li{
+    margin-left: 10px;
+}
+.notice span{
+    float: right;
+    margin-right: 10px;
+}
+.gallery{
+    width: 270px;
+    height: 200px;
+    float: left;
+}
+.gallery li{
+    float: left;
+}
+.gallery img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    float: left;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.banner{
+    width: 260px;
+    height: 200px;
+    float: left;
+    position: relative;
+}
+.banner img{
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    float: right;
+    margin-top: 5px;
+}
+.banner h4{
+    position: absolute;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.411);
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    top: 80px;
+    left: 50px;
+}
+.footer{
+    width: 800px;
+    height: 100px;
+    float: left;
+}
+.down_logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+.down_logo img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+.down_sub{
+    width: 600px;
+    height: 100px;
+    float: left;
+}
+.down_menu{
+    width: 600px;
+    height: 50px;
+    background-color: rgba(216, 191, 216, 0.705);
+}
+.down_menu li{
+    position: relative;
+    float: left;
+    left: 200px;
+    line-height: 50px;
+    margin-left: 50px;
+}
+.copy{
+    width: 600px;
+    height: 50px;
+    background-color: rgba(238, 130, 238, 0.603);
+    line-height: 50px;
+    font-size: 20px;
+    position: relative;
+}
+.copy a{
+    font-weight: bold;
+    margin-left: 50px;
+}
+#modal{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(221, 160, 221, 0.295);
+    text-align: center;
+    display: none;
+}
+#modal.active{
+    display: block;
+}
+.modal_up{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin-top: 200px;
+    margin-left: 950px;
+}
+.uptitle{
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.upbody{
+    width: 350px;
+    line-height: 23px;
+}
+.btn{
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    background-color: violet;
+    line-height: 30px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 10px;
+}
