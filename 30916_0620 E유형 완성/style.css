@@ -1,0 +1,366 @@
+@charset "utf-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #333;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.all {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 200px;
+    height: calc(100vh - 120px);
+    float: left;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    float: left;
+    color: rebeccapurple;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.menu {
+    width: 200px;
+    height: calc(100vh - 120px);
+    background-color: rgba(255, 166, 0, 0.418);
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.navi {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.navi li {
+    width: 180px;
+    line-height: 40px;
+    background-color: white;
+}
+
+.navi>li>a {
+    font-weight: bold;
+}
+
+.navi a:hover {
+    background-color: crimson;
+}
+
+.sub {
+    display: none;
+}
+
+.sub li {
+    background-color: rgba(0, 255, 255, 0.452);
+}
+
+.sub a:hover {
+    background-color: rgba(255, 99, 71, 0.534);
+}
+
+.middle {
+    width: 400px;
+    height: calc(100vh - 120px);
+    float: left;
+}
+
+.shortcut {
+    width: 400px;
+    height: 150px;
+    float: left;
+}
+
+.shortcut span {
+    width: 200px;
+    position: absolute;
+    left: 400px;
+    margin-top: 10px;
+    color: teal;
+    text-align: right;
+    margin-left: -10px;
+}
+
+.notice {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    float: left;
+}
+
+.notice>li.active>a {
+    width: 100px;
+    background-color: #ddd;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.notice ul {
+    border-top: 1px solid #ddd;
+}
+
+.notice>li.active>a:hover {
+    background-color: #eee;
+}
+
+.notice>li {
+    line-height: 42px;
+}
+
+.notice li>a {
+    margin-left: 5px;
+}
+
+.notice span {
+    float: right;
+    margin-right: 5px;
+}
+
+.notice li:nth-child(2n) {
+    background-color: #ddd;
+}
+
+.notice>li a:hover {
+    font-weight: bold;
+}
+
+.gallery {
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.gallery>li {
+    border: 1px solid #ddd;
+}
+
+.gallery>li>a {
+    width: 100px;
+    background-color: #ddd;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    margin-left: 32px;
+    margin-top: 35px;
+    border: 1px solid darkmagenta;
+}
+
+.gallery li>a:hover {
+    background-color: #eee;
+}
+
+.sns {
+    width: 400px;
+    height: 211px;
+    float: left;
+    margin-top: 70px;
+    border: 1px solid #ddd;
+}
+
+.sns>ul {
+    border: 1px solid #ddd;
+}
+
+.sns img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 65px;
+    border: 1px solid #ddd;
+    object-fit: cover;
+}
+
+.shortcut img {
+    width: 400px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.slide {
+    width: calc(100% - (400px + 200px));
+    height: calc(100vh - 120px);
+    background-color: green;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide a {
+    height: calc(100vh - 120px);
+}
+
+.slide span {
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.534);
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 400px;
+    margin-left: 450px;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    float: left;
+    bottom: 120px;
+    z-index: 1;
+}
+
+.down_logo {
+    width: 200px;
+    height: 120px;
+    background-color: slateblue;
+    float: left;
+}
+
+.down_logo img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    float: left;
+}
+
+.down_sub {
+    /* float: left; */
+    width: 100%;
+    height: 120px;
+}
+
+.down_menu {
+    width: 100%;
+    height: 60px;
+}
+
+.down_menu>a {
+    margin-left: 70vh;
+    line-height: 60px;
+}
+
+.copy {
+    width: 100%;
+    height: 60px;
+}
+
+.copy>a {
+    line-height: 60px;
+    margin-left: 60vh;
+}
+
+.family {
+    float: right;
+    position: relative;
+    width: 300px;
+    height: 120px;
+    bottom: 120px;
+    border-left: 1px solid #ddd;
+}
+
+.family a {
+    line-height: 120px;
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+.slide img {
+    width: 200vh;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.imgslide {
+    width: 600vh;
+}
+
+.slide li {
+    float: left;
+    width: 200vh;
+    height: 100%;
+}
+
+#modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 192, 203, 0.459);
+    display: none;
+}
+
+#modal.active {
+    display: block;
+}
+
+.modal_up {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 650px;
+    text-align: center;
+}
+
+.uptitle {
+    line-height: 60px;
+    font-size: 25px;
+}
+
+.upbody {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.btn {
+    display: block;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: pink;
+    float: right;
+    margin-right: 5px;
+    margin-top: 85px;
+}
