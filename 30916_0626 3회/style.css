@@ -1,0 +1,177 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    color: #333;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.all {
+    width: 100%;
+    height: 700px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: red;
+}
+
+.all1 {
+    width: 1200px;
+    height: 100px;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.logo img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.menu {
+    width: 1000px;
+    height: 100px;
+    float: left;
+    background-color: orange;
+    position: relative;
+    z-index: 1;
+}
+
+.navi {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-top: 60px;
+    float: right;
+}
+
+.navi il {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    background-color: white;
+}
+
+.navi a:hover {
+    background-color: yellowgreen;
+}
+
+.sub {
+    display: none;
+}
+
+.sub>li {
+    background-color: yellow;
+}
+
+.slide {
+    width: 1200px;
+    height: 400px;
+}
+
+.imgslide {
+    position: relative;
+}
+
+.imgslide li {
+    margin-top: 100px;
+    position: absolute;
+}
+
+.imgslide img {
+    width: 1200px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.imgslide span {
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.541);
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    top: 170px;
+    margin-left: 400px;
+}
+
+.contents {
+    width: 1200px;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.notice {
+    width: 390px;
+    height: 190px;
+    float: left;
+    margin-top: 5px;
+}
+
+.notice>a {
+    width: 99px;
+    line-height: 30px;
+    float: left;
+    background-color: #eee;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-left: 5px;
+}
+
+.notice ul {
+    margin-top: 32px;
+}
+
+.notice li {
+    line-height: 38px;
+}
+
+.notice ul>li {
+    margin-left: 5px;
+}
+
+.notice li:nth-child(2n) {
+    background-color: #ddd;
+}
+
+.notice span {
+    float: right;
+    margin-right: 5px;
+}
+
+.gallery {
+    width: 390px;
+    height: 190px;
+    float: left;
+    margin-top: 5px;
+}
+
+.gallery>a {
+    width: 99px;
+    line-height: 30px;
+    /* float: left; */
+    background-color: #eee;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-left: 5px;
+}
+
+.gallery img {
+    float: left;
+    margin-left: 22px;
+    margin-top: 30px;
+}
